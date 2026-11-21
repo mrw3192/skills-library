@@ -61,6 +61,67 @@ Cada skill contiene su archivo de instrucciones estandarizado `SKILL.md`, sus re
 
 ---
 
+### 📂 Open-GSD: Path Lifecycle Pipeline
+
+| Skill | Descripción Breve | Fuente / Autor | Documentación |
+| :--- | :--- | :--- | :--- |
+| **`gsd-path`** | Inspect. | [gsd-path](https://github.com/open-gsd/gsd-path) | [Ver README](./skills/gsd-path/README.md) |
+| **`gsd-path-build`** | Execute or resume an approved GSD Path plan with isolated task worktrees, deterministic commits, and independent wave review. | [gsd-path](https://github.com/open-gsd/gsd-path) | [Ver README](./skills/gsd-path-build/README.md) |
+| **`gsd-path-decide`** | Decide implementation direction from approved intent and complete research evidence, recording settled choices in SYNTHESIS. | [gsd-path](https://github.com/open-gsd/gsd-path) | [Ver README](./skills/gsd-path-decide/README.md) |
+| **`gsd-path-define`** | Define and approve project or milestone intent through an interview or milestone confirmation, writing. | [gsd-path](https://github.com/open-gsd/gsd-path) | [Ver README](./skills/gsd-path-define/README.md) |
+| **`gsd-path-discuss`** | Hold an explicit, evidence-grounded discussion about an active GSD Path milestone from any phase, preserve the verbatim dialogue and answer records under. | [gsd-path](https://github.com/open-gsd/gsd-path) | [Ver README](./skills/gsd-path-discuss/README.md) |
+| **`gsd-path-docs-audit`** | Verify Markdown claims against the actual code, commands, and GSD Path artifacts. | [gsd-path](https://github.com/open-gsd/gsd-path) | [Ver README](./skills/gsd-path-docs-audit/README.md) |
+| **`gsd-path-forensics`** | Use only when the user explicitly invokes $gsd-path-forensics. | [gsd-path](https://github.com/open-gsd/gsd-path) | [Ver README](./skills/gsd-path-forensics/README.md) |
+| **`gsd-path-inspect`** | Inspect an existing codebase and its documentation to establish brownfield ground truth before intent is defined. | [gsd-path](https://github.com/open-gsd/gsd-path) | [Ver README](./skills/gsd-path-inspect/README.md) |
+| **`gsd-path-loop`** | Use only when the user explicitly invokes $gsd-path-loop. | [gsd-path](https://github.com/open-gsd/gsd-path) | [Ver README](./skills/gsd-path-loop/README.md) |
+| **`gsd-path-migrate`** | Preserve GSD Core project context and unfinished work for intake through GSD Path gates, and review coexistence on Claude Code and Codex. | [gsd-path](https://github.com/open-gsd/gsd-path) | [Ver README](./skills/gsd-path-migrate/README.md) |
+| **`gsd-path-plan`** | Create and validate dependency-ordered GSD Path build waves and complete task contracts. | [gsd-path](https://github.com/open-gsd/gsd-path) | [Ver README](./skills/gsd-path-plan/README.md) |
+| **`gsd-path-research`** | Dispatch parallel researchers and collect cited GSD Path evidence about domain, stack, pitfalls, and comparable products. | [gsd-path](https://github.com/open-gsd/gsd-path) | [Ver README](./skills/gsd-path-research/README.md) |
+| **`gsd-path-roadmap`** | Slice an approved GSD Path program charter into a dependency-ordered roadmap of independently shippable milestones. | [gsd-path](https://github.com/open-gsd/gsd-path) | [Ver README](./skills/gsd-path-roadmap/README.md) |
+| **`gsd-path-ship`** | Verify a completed GSD Path milestone, manage evidence-backed patch decisions, request final shipping approval, and archive the validated result. | [gsd-path](https://github.com/open-gsd/gsd-path) | [Ver README](./skills/gsd-path-ship/README.md) |
+| **`gsd-path-undo`** | Use only when the user explicitly invokes $gsd-path-undo. | [gsd-path](https://github.com/open-gsd/gsd-path) | [Ver README](./skills/gsd-path-undo/README.md) |
+
+### 📂 Open-GSD: Spec-Build Iterative Loop
+
+| Skill | Descripción Breve | Fuente / Autor | Documentación |
+| :--- | :--- | :--- | :--- |
+| **`gsd-loop-build`** | Build the oldest safe gsd:ready GitHub issue or repair one gsd:rework PR. | [gsd-spec-build-loop](https://github.com/open-gsd/gsd-spec-build-loop) | [Ver README](./skills/gsd-loop-build/README.md) |
+| **`gsd-loop-discover`** | Chart or advance one interactive discovery map, shape it into one or more delivery slices, then hand those slices to gsd-loop-spec. | [gsd-spec-build-loop](https://github.com/open-gsd/gsd-spec-build-loop) | [Ver README](./skills/gsd-loop-discover/README.md) |
+| **`gsd-loop-review`** | Audit one open PR against its linked issue contract and required CI, then post a gsd-loop verdict and labels. | [gsd-spec-build-loop](https://github.com/open-gsd/gsd-spec-build-loop) | [Ver README](./skills/gsd-loop-review/README.md) |
+| **`gsd-loop-schedule`** | Create or update a native recurring task that repeatedly runs one-pass gsd-loop builder or reviewer work. | [gsd-spec-build-loop](https://github.com/open-gsd/gsd-spec-build-loop) | [Ver README](./skills/gsd-loop-schedule/README.md) |
+| **`gsd-loop-spec`** | Turn a rough idea or cleared discovery map into one or more contract-grade GitHub issues for the gsd-loop queue. | [gsd-spec-build-loop](https://github.com/open-gsd/gsd-spec-build-loop) | [Ver README](./skills/gsd-loop-spec/README.md) |
+
+### 📂 Open-GSD: Developer & Browser Automation
+
+| Skill | Descripción Breve | Fuente / Autor | Documentación |
+| :--- | :--- | :--- | :--- |
+| **`gsd-browser`** | Open GSD native browser automation for AI agents. | [gsd-browser](https://github.com/open-gsd/gsd-browser) | [Ver README](./skills/gsd-browser/README.md) |
+| **`agent-inbox`** | Create temporary email inboxes and receive emails for testing auth flows, email verification, account confirmation, and any scenario where an AI agent needs to receive an email. | [agent-inbox](https://github.com/open-gsd/agent-inbox) | [Ver README](./skills/agent-inbox/README.md) |
+| **`gsd-atlas`** | Use gsd-atlas before searching a repository for code by name, before editing a function, class or type, and when asked who calls, implements, extends or depends on something. | [gsd-atlas](https://github.com/open-gsd/gsd-atlas) | [Ver README](./skills/gsd-atlas/README.md) |
+| **`gsd-atlas-module-author`** | Walks a contributor through writing a gsd-atlas language module: the atlas-lang. | [gsd-atlas](https://github.com/open-gsd/gsd-atlas) | [Ver README](./skills/gsd-atlas-module-author/README.md) |
+
+### 📂 Open-GSD: Core Engineering & Quality
+
+| Skill | Descripción Breve | Fuente / Autor | Documentación |
+| :--- | :--- | :--- | :--- |
+| **`gsd-add-tests`** | Generate tests for a completed phase based on UAT criteria and implementation. | [gsd-core](https://github.com/open-gsd/gsd-core) | [Ver README](./skills/gsd-add-tests/README.md) |
+| **`gsd-verify-work`** | Validate built features through conversational UAT. | [gsd-core](https://github.com/open-gsd/gsd-core) | [Ver README](./skills/gsd-verify-work/README.md) |
+| **`gsd-audit-uat`** | Cross-phase audit of all outstanding UAT and verification items. | [gsd-core](https://github.com/open-gsd/gsd-core) | [Ver README](./skills/gsd-audit-uat/README.md) |
+| **`gsd-audit-fix`** | Autonomous audit-to-fix pipeline — find issues, classify, fix, test, commit. | [gsd-core](https://github.com/open-gsd/gsd-core) | [Ver README](./skills/gsd-audit-fix/README.md) |
+| **`gsd-audit-milestone`** | Audit milestone completion against original intent before archiving. | [gsd-core](https://github.com/open-gsd/gsd-core) | [Ver README](./skills/gsd-audit-milestone/README.md) |
+| **`gsd-code-review`** | Review source files changed during a phase for bugs, security issues, and code quality problems. | [gsd-core](https://github.com/open-gsd/gsd-core) | [Ver README](./skills/gsd-code-review/README.md) |
+| **`gsd-debug`** | Systematic debugging with persistent state across context resets. | [gsd-core](https://github.com/open-gsd/gsd-core) | [Ver README](./skills/gsd-debug/README.md) |
+| **`gsd-quick`** | Execute a quick task with GSD guarantees (atomic commits, state tracking) but skip optional agents. | [gsd-core](https://github.com/open-gsd/gsd-core) | [Ver README](./skills/gsd-quick/README.md) |
+| **`gsd-ui-phase`** | Generate UI design contract (UI-SPEC. | [gsd-core](https://github.com/open-gsd/gsd-core) | [Ver README](./skills/gsd-ui-phase/README.md) |
+| **`gsd-ui-review`** | Retroactive 6-pillar visual audit of implemented frontend code. | [gsd-core](https://github.com/open-gsd/gsd-core) | [Ver README](./skills/gsd-ui-review/README.md) |
+| **`gsd-secure-phase`** | Retroactively verify threat mitigations for a completed phase. | [gsd-core](https://github.com/open-gsd/gsd-core) | [Ver README](./skills/gsd-secure-phase/README.md) |
+| **`gsd-validate-phase`** | Retroactively audit and fill Nyquist validation gaps for a completed phase. | [gsd-core](https://github.com/open-gsd/gsd-core) | [Ver README](./skills/gsd-validate-phase/README.md) |
+| **`gsd-cleanup`** | Archive accumulated phase directories from completed milestones. | [gsd-core](https://github.com/open-gsd/gsd-core) | [Ver README](./skills/gsd-cleanup/README.md) |
+| **`gsd-docs-update`** | Generate or update project documentation verified against the codebase. | [gsd-core](https://github.com/open-gsd/gsd-core) | [Ver README](./skills/gsd-docs-update/README.md) |
+| **`gsd-autonomous`** | Run all remaining phases autonomously — discuss→plan→execute per phase. | [gsd-core](https://github.com/open-gsd/gsd-core) | [Ver README](./skills/gsd-autonomous/README.md) |
+
+---
+
 ## 🚀 Cómo Usar e Instalar estos Skills
 
 ### 1. En Google Antigravity / Gemini CLI
