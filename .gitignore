@@ -1,0 +1,19 @@
+# System and OS files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Temporary and caches
+__pycache__/
+*.py[cod]
+*$py.class
+node_modules/
+dist/
+build/
+*.tmp
+*.log
+
+# Sensitive environment files
+.env
+.env.*
+secrets.json
